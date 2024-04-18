@@ -5,7 +5,9 @@ Version: 1.0.0
 Date: 2024-04-1
 Author: Me
 Maintainer: Me <me@mydomain.org>
-Description: This package does absolutely nothing. It is an installable version of package1 that lacks the dependencies on package2 and package3
+Description: This package does absolutely nothing. It is a version of
+    package1 that lacks the dependencies on package2 and package3
+    and can be installed via remotes::install_local()
 License: Apache-2.0
 SystemRequirements: blender
 Imports:
@@ -14,4 +16,3 @@ Imports:
 RoxygenNote: 7.3.1
 Remotes:
     shinyproxy=openanalytics/shinyproxy-demo/shinyproxy
-    

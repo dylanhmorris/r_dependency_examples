@@ -6,7 +6,10 @@ Date: 2024-04-1
 Author: Me
 Maintainer: Me <me@mydomain.org>
 Description: This package does absolutely nothing. It is a version of package4
-(which is installable remotes::install_local() that remotes cannot install because it uses the <name>=github::<repo> syntax rather than the <name>=<repo> syntax
+    (which is installable via remotes::install_local())
+    that remotes cannot install, because whereas package4 uses
+    <name>=<repo> syntax to specify github remotes, package5 uses
+    <name>=github::<repo> syntax.
 License: Apache-2.0
 SystemRequirements: blender
 Imports:
@@ -15,4 +18,4 @@ Imports:
 RoxygenNote: 7.3.1
 Remotes:
     shinyproxy=github::openanalytics/shinyproxy-demo/shinyproxy
-    
+
